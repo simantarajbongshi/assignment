@@ -1,0 +1,47 @@
+/* Universal */
+.td-action{
+    cursor: pointer;
+    font-size: 20px;
+    color: #ef476f;
+    transition: 0.2s;
+}
+.td-action:hover{
+    color: #b5179e;
+    transform: scale(1.1);
+}
+
+.td-action-block{
+    display: flex; 
+    align-items: center; 
+    justify-content:space-around;
+}
+
+.td-img{
+    width: 60px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.td-img:hover{
+    transform: scale(1.5);
+}
+
+/* 1. events.blade.php */
+.event_card{
+    border: none;
+    transition: transform .2s; /* Animation */
+    text-align: center;
+    cursor: pointer;
+}
+/* .event_card:hover{
+    transform: scale(1.1);
+} */
+/* events.blade.php ends */
+
+/* member_dashboard.blade.php */
+.table-font{
+    font-size: 12px;
+}
+/* member_dashboard.blade.php ends */
